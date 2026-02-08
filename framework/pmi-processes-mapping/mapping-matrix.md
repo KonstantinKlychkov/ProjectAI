@@ -2,7 +2,7 @@
 
 Матрица соответствия процессов PMI и агентов ProjectAI. Распределение процессов по Performance Domains — по [reference/process-groups-to-domains.md](reference/process-groups-to-domains.md).
 
-Справочник агентов: [.cursor/skills/projectai-mas-pm/reference.md](../../.cursor/skills/projectai-mas-pm/reference.md).
+Справочник агентов: [reference/agents-reference.md](reference/agents-reference.md), источник — [mas/requirements/business_requirements.md](../../mas/requirements/business_requirements.md).
 
 ## Legend (покрытие)
 

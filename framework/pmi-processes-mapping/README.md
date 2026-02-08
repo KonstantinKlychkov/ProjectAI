@@ -40,7 +40,7 @@
 ## Связь с Cursor
 
 - **Фреймворк** (framework/pmi-processes-mapping/) — источник истины по доменам, процессам и маппингу на агентов.
-- **.cursor/skills/projectai-mas-pm/** — общий контекст проекта и агентов; при необходимости ссылаться на framework для деталей по доменам.
+- **Контекст агентов и требований:** при необходимости подключать `mas/requirements/business_requirements.md` и файлы из framework/pmi-processes-mapping/ (domain-*.md, reference/).
 - **.cursor/agents/** — опционально: субагенты по доменам или по ключевым агентам; заготовки промптов можно формировать на основе domain-*.md и раздела «Контекст для агента» в них.
 
 Подробнее: [reference/cursor-integration.md](reference/cursor-integration.md).
@@ -53,4 +53,4 @@
 
 - План: см. приложенный план (60 этапов, цепочка результат → вход).
 - Источник процессов: `knowledge/project-management/pmi/processgroupspracticeguide_eng.pdf`.
-- Агенты: `.cursor/skills/projectai-mas-pm/reference.md`, `mas/requirements/business_requirements.md`.
+- Агенты: [reference/agents-reference.md](reference/agents-reference.md), `mas/requirements/business_requirements.md`.

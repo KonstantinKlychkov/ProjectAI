@@ -5,11 +5,7 @@
 ## Источники истины
 
 - **framework/pmi-processes-mapping/** — домены, процессы, маппинг на агентов, контекст для субагентов.
-- **.cursor/skills/projectai-mas-pm/** — общий контекст проекта и агентов (SKILL.md, reference.md); при необходимости ссылаться на framework для деталей по доменам и процессам.
-
-## Skills
-
-- Skill **projectai-mas-pm** даёт доменный контекст и список агентов. Для углублённой работы по конкретному домену или процессу подключать соответствующие файлы из `framework/pmi-processes-mapping/` (например, domain-risk.md, reference/pmi-processes-reference.md).
+- **mas/requirements/business_requirements.md** — агенты, решаемые проблемы, функциональные требования к МАС. При необходимости работы по доменам и процессам подключать файлы из `framework/pmi-processes-mapping/` (например, domain-risk.md, reference/pmi-processes-reference.md).
 
 ## Agents (субагенты)
 
