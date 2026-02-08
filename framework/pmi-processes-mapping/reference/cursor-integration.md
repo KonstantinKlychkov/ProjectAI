@@ -13,4 +13,4 @@
 
 ## Иерархия и делегирование
 
-Иерархия и правила делегирования будут определены в концепции МАС. См. [agent-hierarchy-and-delegation.md](agent-hierarchy-and-delegation.md).
+Иерархия и правила делегирования относятся к архитектуре МАС и будут определены в концепции МАС. Источник истины — документ в зоне МАС: `mas/concept/` или `mas/architecture/` (после появления концепции). См. также [agent-hierarchy-and-delegation.md](agent-hierarchy-and-delegation.md) (ссылка на mas/).

@@ -33,10 +33,6 @@
 - [reference/](reference/) — маппинг Focus Areas ↔ Domains, список процессов
 - [diagrams/](diagrams/) — обзор доменов, потоки данных
 
-## Трекинг этапов
-
-Таблица этапов 1–60: [STAGES.md](STAGES.md). После выполнения этапа помечать Status = done.
-
 ## Связь с Cursor
 
 - **Фреймворк** (framework/pmi-processes-mapping/) — источник истины по доменам и процессам PMI.
