@@ -27,7 +27,7 @@
 - **Tools & Techniques:** Expert judgment; Data gathering (Brainstorming, Focus groups, Interviews); Interpersonal and team skills (Conflict management, Facilitation, Meeting management); Meetings.  
 - **Data flow:** Связи с 4.2, 5.1, 5.2–5.24, 8.1; входы от организации и проектных документов.
 
-**Маппинг на агентов:** TBD (оценка после заполнения матрицы).  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС) (после концепции МАС).  
 **Рекомендации:** TBD
 
 ---
@@ -40,7 +40,7 @@
 - **Tools & Techniques:** Expert judgment; Data gathering (Brainstorming, Checklists, Focus groups, Interviews); Interpersonal and team skills; Meetings.  
 - **Data flow:** Входы от 4.1 и выходы других процессов планирования; формирует интегрированный план проекта.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -53,7 +53,7 @@
 - **Tools & Techniques:** Expert judgment; PMIS; Meetings.  
 - **Data flow:** питает 6.2, 7.2, 7.3–7.12.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -66,7 +66,7 @@
 - **Tools & Techniques:** Expert judgment; Data analysis (Alternatives, Cost-benefit, Earned value, Root cause, Trend, Variance); Decision making; Meetings.  
 - **Data flow:** интеграция данных от 6.x, 7.3–7.12.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -79,7 +79,7 @@
 - **Tools & Techniques:** Expert judgment; Change control tools; Data analysis; Decision making; Meetings.  
 - **Data flow:** централизованный контроль изменений; связь со всеми процессами, генерирующими изменения.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -92,24 +92,24 @@
 - **Tools & Techniques:** Expert judgment; Data analysis (Document, Regression, Trend, Variance); Meetings.  
 - **Data flow:** от 7.3, 4.1, 5.23, 6.9; формальное закрытие, передача результатов, архивирование.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
 
-## 3. Контекст для агента (субагента)
+## 3. Контекст для компонента МАС (субагент/модуль)
 
 *(Placeholder)*
 
 - **Артефакты и документы:** уточняется на этапах 12–60.
 - **Процессы домена:** 4.1, 5.1, 6.1, 7.1, 7.2, 8.1.
-- **Рекомендации для .cursor/agents/:** включать domain-governance.md и reference по процессам Governance.
+- **Рекомендации для .cursor/agents/:** конкретные компоненты и промпты будут определены после концепции МАС; включать domain-governance.md и reference по процессам Governance.
 
 ---
 
 ## 4. Сводка по домену
 
-| Процесс | Покрытие агентами | Приоритет пробелов |
+| Процесс | Покрытие компонентами МАС | Приоритет пробелов |
 |---------|-------------------|---------------------|
 | 4.1 Develop Project Charter | TBD | — |
 | 5.1 Develop Project Management Plan | TBD | — |

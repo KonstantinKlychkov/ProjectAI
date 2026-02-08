@@ -25,7 +25,7 @@
 - **Tools & Techniques:** Expert judgment; Data analysis (Alternatives); Meetings.  
 - **Data flow:** от 4.1 → план управления стоимостью.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -38,7 +38,7 @@
 - **Tools & Techniques:** Expert judgment; Analogous/Parametric/Bottom-up/Three-point estimating; Data analysis (Alternatives, Reserve, Cost of quality); PMIS; Decision making.  
 - **Data flow:** оценки затрат для бюджета.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -51,7 +51,7 @@
 - **Tools & Techniques:** Expert judgment; Cost aggregation; Data analysis (Reserve); Historical information review; Funding limit reconciliation; Financing.  
 - **Data flow:** связи с 6.9, 7.6; формирует Cost baseline.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -64,24 +64,24 @@
 - **Tools & Techniques:** Expert judgment; Data analysis (Earned value, Variance, Trend, Reserve); To-complete performance index; PMIS.  
 - **Data flow:** от 6.1, 5.13 → 7.2, 7.1.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
 
-## 3. Контекст для агента (субагента)
+## 3. Контекст для компонента МАС (субагент/модуль)
 
 *(Placeholder)*
 
 - **Артефакты и документы:** уточняется на этапах 12–60.
 - **Процессы домена:** 5.11, 5.12, 5.13, 7.6.
-- **Рекомендации для .cursor/agents/:** включать domain-finance.md и reference по процессам Finance.
+- **Рекомендации для .cursor/agents/:** конкретные компоненты и промпты будут определены после концепции МАС; включать domain-finance.md и reference по процессам Finance.
 
 ---
 
 ## 4. Сводка по домену
 
-| Процесс | Покрытие агентами | Приоритет пробелов |
+| Процесс | Покрытие компонентами МАС | Приоритет пробелов |
 |---------|-------------------|---------------------|
 | 5.11 Plan Cost Management | TBD | — |
 | 5.12 Estimate Costs | TBD | — |

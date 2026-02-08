@@ -1,6 +1,6 @@
-# PMI Processes to Agents Mapping Framework
+# PMI Processes Mapping Framework
 
-Фреймворк маппинга 49 процессов PMI Process Groups Practice Guide на агентов ProjectAI по Performance Domains.
+Фреймворк маппинга 49 процессов PMI Process Groups Practice Guide по Performance Domains. Соответствие процессов и компонентов МАС будет определено после разработки концепции МАС.
 
 ## Содержание
 
@@ -28,10 +28,10 @@
 
 ## Структура документации
 
-- [mapping-matrix.md](mapping-matrix.md) — матрица процессов × агенты
+- [mapping-matrix.md](mapping-matrix.md) — матрица процессов (покрытие компонентами МАС — TBD после концепции МАС)
 - [domain-governance.md](domain-governance.md) … [domain-risk.md](domain-risk.md) — домены
-- [reference/](reference/) — маппинг Focus Areas ↔ Domains, список процессов, справочник агентов
-- [diagrams/](diagrams/) — обзор доменов, потоки данных, соответствие агентов и доменов
+- [reference/](reference/) — маппинг Focus Areas ↔ Domains, список процессов
+- [diagrams/](diagrams/) — обзор доменов, потоки данных
 
 ## Трекинг этапов
 
@@ -39,18 +39,14 @@
 
 ## Связь с Cursor
 
-- **Фреймворк** (framework/pmi-processes-mapping/) — источник истины по доменам, процессам и маппингу на агентов.
-- **Контекст агентов и требований:** при необходимости подключать `mas/requirements/business_requirements.md` и файлы из framework/pmi-processes-mapping/ (domain-*.md, reference/).
-- **.cursor/agents/** — опционально: субагенты по доменам или по ключевым агентам; заготовки промптов можно формировать на основе domain-*.md и раздела «Контекст для агента» в них.
+- **Фреймворк** (framework/pmi-processes-mapping/) — источник истины по доменам и процессам PMI.
+- **Требования к МАС:** при необходимости подключать `mas/requirements/business_requirements.md` и файлы из framework/pmi-processes-mapping/ (domain-*.md, reference/).
+- **.cursor/agents/** — опционально после появления концепции МАС: заготовки субагентов по доменам на основе domain-*.md.
 
 Подробнее: [reference/cursor-integration.md](reference/cursor-integration.md).
-
-## Рекомендации по агентам
-
-Рекомендации по новым агентам и расширениям существующих для непокрытых процессов приводятся в сводке по каждому домену (файлы domain-*.md, раздел 4). После заполнения матрицы покрытия (оценка по каждому процессу в [mapping-matrix.md](mapping-matrix.md)) сводки и приоритеты пробелов будут уточнены.
 
 ## Навигация
 
 - План: см. приложенный план (60 этапов, цепочка результат → вход).
 - Источник процессов: `knowledge/project-management/pmi/processgroupspracticeguide_eng.pdf`.
-- Агенты: [reference/agents-reference.md](reference/agents-reference.md), `mas/requirements/business_requirements.md`.
+- Требования к МАС: [mas/requirements/business_requirements.md](../../mas/requirements/business_requirements.md).

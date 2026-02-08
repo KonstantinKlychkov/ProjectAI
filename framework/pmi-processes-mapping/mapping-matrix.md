@@ -1,22 +1,20 @@
-# Mapping Matrix: 49 PMI Processes × Agents
+# Mapping Matrix: 49 PMI Processes
 
-Матрица соответствия процессов PMI и агентов ProjectAI. Распределение процессов по Performance Domains — по [reference/process-groups-to-domains.md](reference/process-groups-to-domains.md).
-
-Справочник агентов: [reference/agents-reference.md](reference/agents-reference.md), источник — [mas/requirements/business_requirements.md](../../mas/requirements/business_requirements.md).
+Матрица процессов PMI. Покрытие компонентами МАС — TBD после разработки концепции МАС. Распределение процессов по Performance Domains — по [reference/process-groups-to-domains.md](reference/process-groups-to-domains.md).
 
 ## Legend (покрытие)
 
 | Маркер | Покрытие   | Описание |
 |--------|------------|----------|
-| 🟢     | 80–100%    | Функции процесса в основном покрыты агентами |
+| 🟢     | 80–100%    | Функции процесса в основном покрыты компонентами МАС |
 | 🟡     | 50–79%     | Основное покрытие, есть пробелы |
 | 🟠     | 20–49%     | Частичное покрытие, нужно расширение |
 | 🔴     | &lt;20%     | Минимальное/нет покрытия |
-| —      | TBD        | Оценка будет уточнена после этапов 12–60 |
+| TBD    | —          | Оценка будет уточнена после концепции МАС и этапов 12–60 |
 
 ## Режим выполнения (foreground / background)
 
-Для проектирования МАС и субагентов Cursor процессы могут быть помечены режимом выполнения:
+Для проектирования МАС процессы могут быть помечены режимом выполнения:
 
 | Режим | Описание | Критерии (примеры) |
 |-------|----------|---------------------|
@@ -25,121 +23,99 @@
 
 Атрибут будет проставляться при заполнении матрицы и domain-*.md (этапы 12–60).
 
-## Агенты (колонки)
-
-- **Plan** — Агент планирования / стратегического планирования  
-- **Risk** — Агент риск-менеджмента  
-- **LL** — Агент анализа Lessons Learned  
-- **Roles** — Агент управления ролями  
-- **Monitor** — Агент мониторинга проектов  
-- **Notify** — Агент уведомлений  
-- **Dep** — Агент координации зависимостей  
-- **Prior** — Агент приоритизации задач  
-- **Forecast** — Агент прогнозирования сроков  
-- **Adapt** — Агент адаптации планов  
-- **Escal** — Агент эскалации проблем  
-- **Change** — Агент моделирования изменений  
-- **Coord** — Агент координации  
-- **Load** — Агент управления загрузкой ресурсов  
-- **Doc** — Агент автоматизации документации  
-- **Report** — Агент генерации отчётов  
-- **Tasks** — Агент управления задачами  
-- **KPI** — Агент контроля метрик и KPI  
-- **Integr** — Агент интеграции  
-
 ## Матрица (скелет)
 
-Ячейки заполняются по мере выполнения этапов 12–60. Строки сгруппированы по доменам.
+Строки сгруппированы по доменам. Колонка «Покрытие МАС» заполняется после разработки концепции МАС.
 
 ### Governance
 
-| Process | Plan | Risk | LL | Roles | Monitor | Notify | Dep | Prior | Forecast | Adapt | Escal | Change | Coord | Load | Doc | Report | Tasks | KPI | Integr |
-|---------|------|------|-----|------|--------|--------|-----|-------|----------|-------|-------|--------|-------|------|-----|--------|-------|-----|--------|
-| 4.1 Develop Project Charter | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| 5.1 Develop Project Management Plan | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| 6.1 Direct and Manage Project Work | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| 7.1 Monitor and Control Project Work | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| 7.2 Perform Integrated Change Control | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| 8.1 Close Project or Phase | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
+| Process | Покрытие МАС |
+|---------|--------------|
+| 4.1 Develop Project Charter | TBD |
+| 5.1 Develop Project Management Plan | TBD |
+| 6.1 Direct and Manage Project Work | TBD |
+| 7.1 Monitor and Control Project Work | TBD |
+| 7.2 Perform Integrated Change Control | TBD |
+| 8.1 Close Project or Phase | TBD |
 
 ### Scope
 
-| Process | Plan | Risk | … (см. легенду) |
-|---------|------|------|-----------------|
-| 5.2 Plan Scope Management | — | — | … |
-| 5.3 Collect Requirements | — | — | … |
-| 5.4 Define Scope | — | — | … |
-| 5.5 Create WBS | — | — | … |
-| 7.3 Validate Scope | — | — | … |
-| 7.4 Control Scope | — | — | … |
+| Process | Покрытие МАС |
+|---------|--------------|
+| 5.2 Plan Scope Management | TBD |
+| 5.3 Collect Requirements | TBD |
+| 5.4 Define Scope | TBD |
+| 5.5 Create WBS | TBD |
+| 7.3 Validate Scope | TBD |
+| 7.4 Control Scope | TBD |
 
 ### Schedule
 
-| Process | Plan | Risk | … |
-|---------|------|------|---|
-| 5.6 Plan Schedule Management | — | — | … |
-| 5.7 Define Activities | — | — | … |
-| 5.8 Sequence Activities | — | — | … |
-| 5.9 Estimate Activity Durations | — | — | … |
-| 5.10 Develop Schedule | — | — | … |
-| 7.5 Control Schedule | — | — | … |
+| Process | Покрытие МАС |
+|---------|--------------|
+| 5.6 Plan Schedule Management | TBD |
+| 5.7 Define Activities | TBD |
+| 5.8 Sequence Activities | TBD |
+| 5.9 Estimate Activity Durations | TBD |
+| 5.10 Develop Schedule | TBD |
+| 7.5 Control Schedule | TBD |
 
 ### Finance
 
-| Process | Plan | Risk | … |
-|---------|------|------|---|
-| 5.11 Plan Cost Management | — | — | … |
-| 5.12 Estimate Costs | — | — | … |
-| 5.13 Determine Budget | — | — | … |
-| 7.6 Control Costs | — | — | … |
+| Process | Покрытие МАС |
+|---------|--------------|
+| 5.11 Plan Cost Management | TBD |
+| 5.12 Estimate Costs | TBD |
+| 5.13 Determine Budget | TBD |
+| 7.6 Control Costs | TBD |
 
 ### Stakeholders
 
-| Process | Plan | Risk | … |
-|---------|------|------|---|
-| 4.2 Identify Stakeholders | — | — | … |
-| 5.17 Plan Communications Management | — | — | … |
-| 5.24 Plan Stakeholder Engagement | — | — | … |
-| 6.7 Manage Communications | — | — | … |
-| 6.10 Manage Stakeholder Engagement | — | — | … |
-| 7.9 Monitor Communications | — | — | … |
-| 7.12 Monitor Stakeholder Engagement | — | — | … |
+| Process | Покрытие МАС |
+|---------|--------------|
+| 4.2 Identify Stakeholders | TBD |
+| 5.17 Plan Communications Management | TBD |
+| 5.24 Plan Stakeholder Engagement | TBD |
+| 6.7 Manage Communications | TBD |
+| 6.10 Manage Stakeholder Engagement | TBD |
+| 7.9 Monitor Communications | TBD |
+| 7.12 Monitor Stakeholder Engagement | TBD |
 
 ### Resources
 
-| Process | Plan | Risk | … |
-|---------|------|------|---|
-| 5.15 Plan Resource Management | — | — | … |
-| 5.16 Estimate Activity Resources | — | — | … |
-| 6.4 Acquire Resources | — | — | … |
-| 6.5 Develop Team | — | — | … |
-| 6.6 Manage Team | — | — | … |
-| 7.8 Control Resources | — | — | … |
+| Process | Покрытие МАС |
+|---------|--------------|
+| 5.15 Plan Resource Management | TBD |
+| 5.16 Estimate Activity Resources | TBD |
+| 6.4 Acquire Resources | TBD |
+| 6.5 Develop Team | TBD |
+| 6.6 Manage Team | TBD |
+| 7.8 Control Resources | TBD |
 
 ### Risk
 
-| Process | Plan | Risk | … |
-|---------|------|------|---|
-| 5.18 Plan Risk Management | — | — | … |
-| 5.19 Identify Risks | — | — | … |
-| 5.20 Perform Qualitative Risk Analysis | — | — | … |
-| 5.21 Perform Quantitative Risk Analysis | — | — | … |
-| 5.22 Plan Risk Responses | — | — | … |
-| 6.8 Implement Risk Responses | — | — | … |
-| 7.10 Monitor Risks | — | — | … |
+| Process | Покрытие МАС |
+|---------|--------------|
+| 5.18 Plan Risk Management | TBD |
+| 5.19 Identify Risks | TBD |
+| 5.20 Perform Qualitative Risk Analysis | TBD |
+| 5.21 Perform Quantitative Risk Analysis | TBD |
+| 5.22 Plan Risk Responses | TBD |
+| 6.8 Implement Risk Responses | TBD |
+| 7.10 Monitor Risks | TBD |
 
 ### Cross-domain (Procurement, Quality, Knowledge)
 
-| Process | Plan | Risk | … |
-|---------|------|------|---|
-| 5.14 Plan Quality Management | — | — | … |
-| 5.23 Plan Procurement Management | — | — | … |
-| 6.2 Manage Project Knowledge | — | — | … |
-| 6.3 Manage Quality | — | — | … |
-| 6.9 Conduct Procurements | — | — | … |
-| 7.7 Control Quality | — | — | … |
-| 7.11 Control Procurements | — | — | … |
+| Process | Покрытие МАС |
+|---------|--------------|
+| 5.14 Plan Quality Management | TBD |
+| 5.23 Plan Procurement Management | TBD |
+| 6.2 Manage Project Knowledge | TBD |
+| 6.3 Manage Quality | TBD |
+| 6.9 Conduct Procurements | TBD |
+| 7.7 Control Quality | TBD |
+| 7.11 Control Procurements | TBD |
 
 ---
 
-После этапов 12–60: подстановка оценок покрытия (🟢🟡🟠🔴) и сводная статистика по доменам.
+После разработки концепции МАС и этапов 12–60: подстановка оценок покрытия (🟢🟡🟠🔴) и сводная статистика по доменам.

@@ -27,7 +27,7 @@
 - **Tools & Techniques:** Expert judgment; Data analysis (Alternatives analysis); Meetings.  
 - **Data flow:** от 4.1, организации → план управления содержанием.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -40,7 +40,7 @@
 - **Tools & Techniques:** Expert judgment; Data gathering (Brainstorming, Interviews, Focus groups, Questionnaires, Benchmarking); Data analysis; Decision making; Data representation; Interpersonal skills; Context diagram; Prototypes.  
 - **Data flow:** связи с 4.1, 6.9, PM Plan, Project Documents.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -53,7 +53,7 @@
 - **Tools & Techniques:** Expert judgment; Data analysis; Decision making; Facilitation; Product analysis.  
 - **Data flow:** от 4.1, плана, документов → Project scope statement, обновления документов.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -66,7 +66,7 @@
 - **Tools & Techniques:** Expert judgment; Decomposition.  
 - **Data flow:** формирует Scope baseline (WBS).
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -79,7 +79,7 @@
 - **Tools & Techniques:** Inspection; Decision making (Voting).  
 - **Data flow:** от 7.7, 6.1 → 7.2, 8.1.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -92,24 +92,24 @@
 - **Tools & Techniques:** Data analysis (Variance, Trend).  
 - **Data flow:** к 7.2, 7.1; поддержание scope baseline.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
 
-## 3. Контекст для агента (субагента)
+## 3. Контекст для компонента МАС (субагент/модуль)
 
 *(Placeholder)*
 
 - **Артефакты и документы:** уточняется на этапах 12–60.
 - **Процессы домена:** 5.2, 5.3, 5.4, 5.5, 7.3, 7.4.
-- **Рекомендации для .cursor/agents/:** включать domain-scope.md и reference по процессам Scope.
+- **Рекомендации для .cursor/agents/:** конкретные компоненты и промпты будут определены после концепции МАС; включать domain-scope.md и reference по процессам Scope.
 
 ---
 
 ## 4. Сводка по домену
 
-| Процесс | Покрытие агентами | Приоритет пробелов |
+| Процесс | Покрытие компонентами МАС | Приоритет пробелов |
 |---------|-------------------|---------------------|
 | 5.2 Plan Scope Management | TBD | — |
 | 5.3 Collect Requirements | TBD | — |

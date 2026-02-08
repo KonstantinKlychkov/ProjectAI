@@ -27,7 +27,7 @@
 - **Tools & Techniques:** Expert judgment; Data representation (Hierarchical charts, RAM, Text-oriented); Organizational theory; Meetings.  
 - **Data flow:** от 4.1 → план управления ресурсами.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -40,7 +40,7 @@
 - **Tools & Techniques:** Expert judgment; Bottom-up/Analogous/Parametric estimating; Data analysis; PMIS; Meetings.  
 - **Data flow:** оценки ресурсов для работ.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -53,7 +53,7 @@
 - **Tools & Techniques:** Decision making (Multicriteria); Negotiation; Pre-assignment; Virtual teams.  
 - **Data flow:** к 7.2.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -66,7 +66,7 @@
 - **Tools & Techniques:** Colocation; Virtual teams; Communication technology; Conflict management; Recognition; Training; Assessments; Meetings.  
 - **Data flow:** к 6.6, 7.2.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -79,7 +79,7 @@
 - **Tools & Techniques:** Interpersonal skills (Conflict, Decision making, Emotional intelligence, Influencing, Leadership); PMIS.  
 - **Data flow:** от 6.5, 7.1 → 7.2.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -92,24 +92,24 @@
 - **Tools & Techniques:** Data analysis (Alternatives, Cost-benefit, Performance reviews, Trend); Problem solving; Negotiation, Influencing; PMIS.  
 - **Data flow:** от 6.1, 6.9 → 7.2, 7.1.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
 
-## 3. Контекст для агента (субагента)
+## 3. Контекст для компонента МАС (субагент/модуль)
 
 *(Placeholder)*
 
 - **Артефакты и документы:** уточняется на этапах 12–60.
 - **Процессы домена:** 5.15, 5.16, 6.4, 6.5, 6.6, 7.8.
-- **Рекомендации для .cursor/agents/:** включать domain-resources.md и reference по процессам Resources.
+- **Рекомендации для .cursor/agents/:** конкретные компоненты и промпты будут определены после концепции МАС; включать domain-resources.md и reference по процессам Resources.
 
 ---
 
 ## 4. Сводка по домену
 
-| Процесс | Покрытие агентами | Приоритет пробелов |
+| Процесс | Покрытие компонентами МАС | Приоритет пробелов |
 |---------|-------------------|---------------------|
 | 5.15 Plan Resource Management | TBD | — |
 | 5.16 Estimate Activity Resources | TBD | — |

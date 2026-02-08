@@ -28,7 +28,7 @@
 - **Tools & Techniques:** Expert judgment; Data analysis (Stakeholder analysis); Meetings.  
 - **Data flow:** от 4.1 → план управления рисками.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -41,7 +41,7 @@
 - **Tools & Techniques:** Expert judgment; Data gathering (Brainstorming, Checklists, Interviews); Data analysis (Root cause, Assumption/constraint, SWOT, Document); Facilitation; Prompt lists; Meetings.  
 - **Data flow:** связи с 5.23, 6.9.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -54,7 +54,7 @@
 - **Tools & Techniques:** Expert judgment; Interviews; Data analysis (Risk data quality, Probability/impact, Other parameters); Facilitation; Risk categorization; Probability/impact matrix; Meetings.  
 - **Data flow:** приоритизация рисков.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -67,7 +67,7 @@
 - **Tools & Techniques:** Expert judgment; Interviews; Facilitation; Representations of uncertainty; Data analysis (Simulations, Sensitivity, Decision tree, Influence diagrams).  
 - **Data flow:** количественный анализ для Plan Risk Responses.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -80,7 +80,7 @@
 - **Tools & Techniques:** Expert judgment; Interviews; Facilitation; Strategies for threats/opportunities/contingent/overall risk; Data analysis; Decision making.  
 - **Data flow:** к 7.2; обновление базовых планов.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -93,7 +93,7 @@
 - **Tools & Techniques:** Expert judgment; Influencing; PMIS.  
 - **Data flow:** выполнение запланированных ответов на риски; к 7.2.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -106,24 +106,24 @@
 - **Tools & Techniques:** Data analysis (Technical performance, Reserve analysis); Audits; Meetings.  
 - **Data flow:** от 6.1, 7.1 → 7.2; мониторинг ответов на риски и новых рисков.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
 
-## 3. Контекст для агента (субагента)
+## 3. Контекст для компонента МАС (субагент/модуль)
 
 *(Placeholder)*
 
 - **Артефакты и документы** (входы/выходы), релевантные домену Risk: *уточняется на этапах 12–60.*
 - **Процессы домена** для контекста: 5.18, 5.19, 5.20, 5.21, 5.22, 6.8, 7.10.
-- **Рекомендации для .cursor/agents/** (например, `risk.md`): включать данный domain-risk.md и reference по процессам Risk; при необходимости — фрагменты смежных доменов (Governance для 7.1/7.2, Stakeholders для коммуникаций о рисках).
+- **Рекомендации для .cursor/agents/:** конкретные компоненты и промпты будут определены после концепции МАС; включать domain-risk.md и reference по процессам Risk; при необходимости — фрагменты смежных доменов (Governance для 7.1/7.2, Stakeholders для коммуникаций о рисках).
 
 ---
 
 ## 4. Сводка по домену
 
-| Процесс | Покрытие агентами | Приоритет пробелов |
+| Процесс | Покрытие компонентами МАС | Приоритет пробелов |
 |---------|-------------------|---------------------|
 | 5.18 Plan Risk Management | TBD | — |
 | 5.19 Identify Risks | TBD | — |

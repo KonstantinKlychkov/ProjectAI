@@ -27,7 +27,7 @@
 - **Tools & Techniques:** Expert judgment; Data analysis (Alternatives); Meetings.  
 - **Data flow:** от 4.1 → план управления расписанием.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -40,7 +40,7 @@
 - **Tools & Techniques:** Expert judgment; Decomposition; Rolling wave planning; Meetings.  
 - **Data flow:** связь с 7.2.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -53,7 +53,7 @@
 - **Tools & Techniques:** Precedence diagramming; Dependency determination; Leads and lags; PMIS.  
 - **Data flow:** формирует сетевые диаграммы.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -66,7 +66,7 @@
 - **Tools & Techniques:** Expert judgment; Analogous/Parametric/Three-point/Bottom-up estimating; Data analysis; Decision making; Meetings.  
 - **Data flow:** оценки длительностей для расписания.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -79,7 +79,7 @@
 - **Tools & Techniques:** Schedule network analysis; Critical path; Resource optimization; What-if/Simulation; Leads/lags; Schedule compression; PMIS; Agile release planning.  
 - **Data flow:** связи с 6.9, 7.2; формирует Schedule baseline.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
@@ -92,24 +92,24 @@
 - **Tools & Techniques:** Data analysis (Earned value, Burndown, Performance reviews, Trend, Variance, What-if); Critical path; PMIS; Resource optimization; Leads/lags; Schedule compression.  
 - **Data flow:** к 7.2, 7.1.
 
-**Маппинг на агентов:** TBD  
+**Маппинг на компоненты МАС:** TBD (после концепции МАС)  
 **Рекомендации:** TBD
 
 ---
 
-## 3. Контекст для агента (субагента)
+## 3. Контекст для компонента МАС (субагент/модуль)
 
 *(Placeholder)*
 
 - **Артефакты и документы:** уточняется на этапах 12–60.
 - **Процессы домена:** 5.6, 5.7, 5.8, 5.9, 5.10, 7.5.
-- **Рекомендации для .cursor/agents/:** включать domain-schedule.md и reference по процессам Schedule.
+- **Рекомендации для .cursor/agents/:** конкретные компоненты и промпты будут определены после концепции МАС; включать domain-schedule.md и reference по процессам Schedule.
 
 ---
 
 ## 4. Сводка по домену
 
-| Процесс | Покрытие агентами | Приоритет пробелов |
+| Процесс | Покрытие компонентами МАС | Приоритет пробелов |
 |---------|-------------------|---------------------|
 | 5.6 Plan Schedule Management | TBD | — |
 | 5.7 Define Activities | TBD | — |
